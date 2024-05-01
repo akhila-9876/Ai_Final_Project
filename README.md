@@ -16,12 +16,12 @@ The goal should be for AI agents to behave like humans and  strategic thinking.
 
 # METHODS:
 
-Q-Learning
+### Q-Learning
 
 A well-liked reinforcement learning method based on the Bellman Equation is called Q-Learning. By selecting the optimal course of action based on prior experiences, the agent gains the ability to maximize rewards. Through trial and error, the objective is to raise the "Q" value, which stands for the predicted cumulative payoff. Based on the rewards it receives from each action, the Q-Learning agent updates its Q-table while exploring the game arena. To ensure ongoing learning and progress, it might employ exploration strategies like ε-greedy or softmax to strike a balance between known and unknown actions.
 
 
-Adversarial Search
+### Adversarial Search
 
 Adversarial search algorithms mimic potential results of actions in a competitive context. One example is Min-Max with Alpha-Beta Pruning. These algorithms build decision trees to assess the optimal move in light of possible opponent reactions. While Alpha-Beta Pruning optimizes the search by removing branches that are unlikely to effect the final decision, hence reducing the computing complexity, Min-Max Algorithm assesses potential moves recursively. By weighing the options available to the opponent and choosing the one that will increase its chances of winning or decrease its chances of losing, the adversarial search agent seeks to discover the best move.
 
@@ -30,7 +30,7 @@ Adversarial search algorithms mimic potential results of actions in a competitiv
 # OVERVIEW OF AGENTS:
 
 
-Q-Learning Agent:
+### Q-Learning Agent:
 
 makes decisions using reinforcement learning.
 makes use of past experiences to optimize gains.
@@ -39,7 +39,7 @@ balances known and unknown actions using an exploration-exploitation technique.
 may use methods to efficiently manage vast state spaces, such as neural networks or function approximation.
 
 
-Utilizing Alpha-Beta Pruning Agent in Min-Max Algorithm:
+### Utilizing Alpha-Beta Pruning Agent in Min-Max Algorithm:
 
 uses adversarial search to find the best course of action.
 builds decision trees to assess potential results.
