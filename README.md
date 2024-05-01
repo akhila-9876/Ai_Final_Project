@@ -2,28 +2,32 @@
 
 Tic Tac Toe Multi-Agent Implementation
 
-Overview:
+# OVERVIEW:
+
 In the popular classic game Tic Tac Toe, two players alternately place their symbols (X and O) on a three-by-three grid with the goal of creating a line of three of their symbols that runs either horizontally, vertically, or diagonally. In this study, we investigate several AI agents for playing Tic Tac Toe, such as adversarial search using Min-Max Algorithm and Alpha-Beta Pruning, and reinforcement learning using Q-Learning.
 
-Objectives:
+# OBJECTIVES:
+
 Create artificial intelligence (AI) agents that can play Tic Tac Toe with various strategies.
 Apply the Min-Max Algorithm with Alpha-Beta Pruning for adversarial search and Q-Learning for reinforcement learning.
 Consider variables like win percentage, average number of moves in a game, training duration, and adaptability to various opponents when assessing each algorithm's effectiveness.
 The goal should be for AI agents to behave like humans and  strategic thinking.
 
 
-Methods
+# METHODS:
 
 Q-Learning
+
 A well-liked reinforcement learning method based on the Bellman Equation is called Q-Learning. By selecting the optimal course of action based on prior experiences, the agent gains the ability to maximize rewards. Through trial and error, the objective is to raise the "Q" value, which stands for the predicted cumulative payoff. Based on the rewards it receives from each action, the Q-Learning agent updates its Q-table while exploring the game arena. To ensure ongoing learning and progress, it might employ exploration strategies like ε-greedy or softmax to strike a balance between known and unknown actions.
 
 
 Adversarial Search
+
 Adversarial search algorithms mimic potential results of actions in a competitive context. One example is Min-Max with Alpha-Beta Pruning. These algorithms build decision trees to assess the optimal move in light of possible opponent reactions. While Alpha-Beta Pruning optimizes the search by removing branches that are unlikely to effect the final decision, hence reducing the computing complexity, Min-Max Algorithm assesses potential moves recursively. By weighing the options available to the opponent and choosing the one that will increase its chances of winning or decrease its chances of losing, the adversarial search agent seeks to discover the best move.
 
 
 
-Overview of Agents
+# OVERVIEW OF AGENTS:
 
 
 Q-Learning Agent:
@@ -44,7 +48,8 @@ chooses the optimal course of action after taking the opponent's possible action
 In larger game trees, depth-limited search may be used for efficiency.
 It is possible to estimate the desirability of board states using evaluation functions.
 
-Deliverables
+
+# DELIVERABLES:
 
 Comprehensive documentation that explains the algorithms, implementation specifics, and usage guidelines for the Q-Learning and Adversarial Search Agents.
 Each AI agent's implementation is included in Python files with comprehensible comments and documentation.
@@ -53,7 +58,7 @@ a YouTube video and presentation slides that show how the project was carried ou
 
 
 
-Methods of Evaluation
+# METHODS OF EVALUATION:
 
 
 Win Rate               : The proportion of games that you win versus various opponents, such as AI agents that are random, heuristic-based, or otherwise. To take variability into consideration, several trials had 
@@ -68,6 +73,7 @@ Performance Against Different Foes : evaluating a player's ability to adjust to 
                                      assess performance against a variety of opponents in order to guarantee generalizability.
                                      
 Human-Like Behavior    : Assessment of adaptable gaming and strategic thinking, pattern recognition, and decision-making akin to that of human players. Agents should play with flexibility and originality.
+
 
 
 
